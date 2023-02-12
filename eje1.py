@@ -89,9 +89,3 @@ def depositar(nombre,deposito):
     cuentas[nombre] += deposito
 def descubierto_lineal(nombre,descubierto):
     cuentas[nombre] -= descubierto
-def programa():
-    crear_cuenta("Juan",1000)
-    retirar("Juan",500)
-    depositar("Juan",200)
-    descubierto_lineal("Juan",100)
-    print(cuentas)
